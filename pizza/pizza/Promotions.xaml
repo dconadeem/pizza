@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizza.Promotions">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="p1" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p1" Tapped="P1_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p2" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p2" Tapped="P2_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p3" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p3" Tapped="P3_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p1" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p4" Tapped="P4_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p2" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p5" Tapped="P5_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p3" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p6" Tapped="P6_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p1" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p7" Tapped="P7_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p2" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p8" Tapped="P8_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="p3" Margin="0,5,0,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="p9" Tapped="P9_OnTapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

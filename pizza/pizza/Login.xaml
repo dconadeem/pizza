@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizza.Login" BackgroundImage="bg">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="ImgRound" Source="round" Margin="150"></Image>
+
+            <StackLayout x:Name="SLlogin" VerticalOptions="Center" IsVisible="False">
+                <Button Text="Log in" BackgroundColor="Blue" x:Name="BtnLogin" Clicked="BtnLogin_OnClicked"></Button>
+                <Button Text="Sign Up" BackgroundColor="Blue" x:Name="BtnSignup" Clicked="BtnSignup_OnClicked"></Button>
+                <Button Text="Menu" BackgroundColor="Blue" x:Name="BtnMenu" Clicked="BtnMenu_OnClicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

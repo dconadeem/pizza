@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pizza="clr-namespace:pizza;assembly=pizza"
+             x:Class="pizza.MasterPage">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" BackgroundColor="Aqua">
+            <StackLayout>
+                <Image Source="master"></Image>
+                <Image Source="masterimage"></Image>
+
+                <Button Text="Promotions" x:Name="BtnPromotions" Clicked="BtnPromotions_OnClicked" BackgroundColor="Blue"></Button>
+                <Button Text="Menu" x:Name="BtnMenu" Clicked="BtnMenu_OnClicked" BackgroundColor="Blue"></Button>
+                <Button Text="Combo" x:Name="BtnCombo" Clicked="BtnCombo_OnClicked" BackgroundColor="Blue"></Button>
+            </StackLayout>
+
+        </ContentPage>
+    </MasterDetailPage.Master>
+   
+
+</MasterDetailPage>

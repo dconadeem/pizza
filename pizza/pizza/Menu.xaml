@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizza.Menu">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="m1" Margin="10,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m1" Tapped="M1_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="m2" Margin="55,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m2" Tapped="M2_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <StackLayout Margin="0,20,0,0" Orientation="Horizontal">
+                    <Image Source="m3" Margin="10,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m3" Tapped="M3_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="m4" Margin="55,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m4" Tapped="M4_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <StackLayout Margin="0,20,0,0" Orientation="Horizontal">
+                    <Image Source="m5" Margin="10,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m5" Tapped="M5_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="m6" Margin="55,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m6" Tapped="M6_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <StackLayout Margin="0,20,0,0" Orientation="Horizontal">
+                    <Image Source="m7" Margin="10,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m7" Tapped="M7_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="m8" Margin="55,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="m8" Tapped="M8_OnTapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

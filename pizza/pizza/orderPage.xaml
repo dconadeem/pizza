@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizza.orderPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Welcome TO KFC Sahiwal" TextColor="Aqua" BackgroundColor="Brown" FontSize="22"></Label>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" BackgroundColor="Aqua">
+                <Label Text="" x:Name="lblorder" BackgroundColor="Azure" HorizontalOptions="Center" FontSize="20"></Label>
+                <Entry Placeholder="Order Name" x:Name="EntOrder"></Entry>
+                <Entry Placeholder="First Name" x:Name="EntFirstName"></Entry>
+                <Entry Placeholder="Last Name" x:Name="EntLastName"></Entry>
+                <Entry Placeholder="Email" x:Name="EntEmail"></Entry>
+                <Entry Placeholder="Phone no" x:Name="EntPhone"></Entry>
+                <Entry Placeholder="Complete Address" x:Name="EntAddress"></Entry>
+               
+                    <Button Text="Order" x:Name="BtnOrder" Clicked="BtnOrder_OnClicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
